@@ -1,0 +1,28 @@
+body {
+  background: rgb(66, 182, 182);
+  height: 10%;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color: white;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 10;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+button {
+  background: silver;
+  border: solid 10px lime;
+  cursor: pointer;
+  font-size: 3em;
+  padding: 18px 100px;
+}
