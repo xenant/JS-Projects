@@ -1,11 +1,14 @@
 <html>
   <head>
-    <body>
-      <h1>People entered:</h1>
-      <h2 id="count-el">0</h2>
-      <script>
-        document.getElementById("count-el").innerText = 252;
-      </script>
-    </body>
+    <link rel="stylesheet" href="index.css" />
   </head>
+  <body>
+    <h1>People entered:</h1>
+    <h2 id="count-el">0</h2>
+    <!-- Create an INCREMENT button with the id = "increment-btn"-->
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <button id="save-btn" onclick="save()">SAVE BABYYYYY</button>
+    <p id="save-el">Previous Submissions:</p>
+    <script src="index.js"></script>
+  </body>
 </html>
