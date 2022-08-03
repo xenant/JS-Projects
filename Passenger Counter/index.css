@@ -16,3 +16,38 @@ button {
 #save-btn {
   background: turquoise;
 }
+
+#total-btn{
+  background: violet;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.parent {
+
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  font-size: 30;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.gamer{
+  font-size: 30
+}

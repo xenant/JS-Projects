@@ -3,12 +3,27 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>People entered:</h1>
+    <div class='parent'>
+      <img class = 'child' src="velvet.png" alt="Snow" style="width:20%">
+      <h1 class = 'child' title= "Simple code by Matthew Olitoquit">Person Counter</h1>
+      <img class = 'child' src="velvet.png" alt="Snow" style="width:20%">
+    </div>
+    
     <h2 id="count-el">0</h2>
     <!-- Create an INCREMENT button with the id = "increment-btn"-->
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="save-btn" onclick="save()">SAVE BABYYYYY</button>
-    <p id="save-el">Previous Submissions:</p>
+    <button id="increment-btn" onclick="increment()" title= "Will increase the number above by one">Increment (+1)</button>
+    <button id="save-btn" onclick="save()" title = "Will be added to the previous entries below">SAVE</button>
+    <button id = "total-btn" onclick = "sum()" title = "will display the total number of people below"> Calculate Total</button> 
+    <div class="row">
+      <div class="column">
+        <img src="android_18.png" alt="Snow" style="width:20%">
+        <img src="videl.png" alt="Snow" style="width:50%">
+        
+      </div>
+      <div class='parent'>
+    <p  class = 'child' id="save-el">Previous Submissions: </p>
+    <p  class = 'gamer' id = 'total-el'>Total:</p>
+  </div>
     <script src="index.js"></script>
   </body>
 </html>
